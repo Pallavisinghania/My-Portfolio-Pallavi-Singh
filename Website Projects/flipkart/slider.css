@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+.header-slider ul {
+    display: flex;
+    overflow-y: hidden;
+}
+
+.header-slider img {
+    max-width: 100vh;
+    height: 350px;
+    padding: -200 10px;
+}
+
+.header-slider a {
+    position: absolute;
+    top: 43%;
+    z-index: 1;
+    padding: 3vh 1vw;
+    background: #d3950f8a;
+    color: #0000007b;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.control_next {
+    right: 0;
+}
