@@ -856,7 +856,7 @@ h3.my-profession {
         flex: 0 0 50%;
         min-width: 50%;
     }
-    
+    .personal-info .row .info-item,
     .home .home-info{
 
         flex: 0 0 100%;
